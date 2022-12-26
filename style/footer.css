@@ -1,0 +1,20 @@
+.footer {
+  padding-bottom: 50px;
+}
+
+.footer__list {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer__item {
+  list-style-type: none;
+}
+
+.footer__item::before {
+  content: '—';
+}

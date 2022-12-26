@@ -1,0 +1,23 @@
+article .nav__container,
+article .footer__container{
+  background-color: #F1F1F1;
+  padding: 25px 30px 25px 40px;
+}
+.nav__list {
+  padding-left: 25px;
+}
+
+.nav__item {
+  color: #02535F;
+}
+
+.nav__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.nav__item-link {
+  border-bottom: 1px solid #02535F;
+}
+
+
+

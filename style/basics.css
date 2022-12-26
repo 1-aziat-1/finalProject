@@ -1,0 +1,32 @@
+.basics-right {
+  display: flow-root;
+  margin-bottom: 30px;
+}
+
+.basics__img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.basics-right__img {
+  float: left;
+  margin-right: 30px;
+}
+
+.basics__text {
+  font-style: italic;
+}
+
+.basics__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.basics-left {
+  display: flow-root;
+}
+
+.basics-left__img {
+  float: right;
+}
+
